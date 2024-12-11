@@ -1,0 +1,256 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 oct. 2024, 23:32:21
+    Author     : owner
+*/
+/* Styles pour le corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Bleu très pâle */
+    color: #333; /* Gris foncé pour le texte */
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu */
+header.menu {
+    background-color: #4a6fa5; /* Bleu doux */
+    padding: 15px;
+    text-align: center;
+}
+
+header.menu h1, header.menu h2, header.menu h3, header.menu h4, header.menu h5 {
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+header.menu a {
+    color: #ffffff; /* Blanc pour un bon contraste */
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+header.menu a:hover {
+    color: #cce7ff; /* Bleu clair en survol */
+}
+
+/* Titre principal */
+h2 {
+    text-align: center;
+    color: #333; /* Gris foncé */
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+/* Styles pour la table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff; /* Fond blanc */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #4a6fa5; /* Bleu doux */
+    color: #ffffff; /* Blanc pour un bon contraste */
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Gris très clair */
+}
+
+table tr:hover {
+    background-color: #e0f7fa; /* Bleu pâle pour survol */
+}
+
+/* Cellules de texte */
+td {
+    color: #333;
+    font-size: 1em;
+}
+
+/* Bouton de navigation */
+header.menu h1 a, header.menu h2 a, header.menu h3 a, header.menu h4 a, header.menu h5 a {
+    transition: color 0.3s ease;
+}
+
+/* Styles pour les boutons Enregistrer, Modifier, Supprimer */
+button, input[type="submit"] {
+    background-color: #4CAF50; /* Vert doux */
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #45a049; /* Vert plus foncé au survol */
+}
+
+/* Boutons spécifiques pour Modifier et Supprimer avec couleurs distinctes */
+button.modifier, input[type="submit"].modifier {
+    background-color: #f0ad4e; /* Orange doux pour Modifier */
+}
+
+button.modifier:hover, input[type="submit"].modifier:hover {
+    background-color: #ec971f; /* Orange plus foncé au survol */
+}
+
+button.supprimer, input[type="submit"].supprimer {
+    background-color: #d9534f; /* Rouge doux pour Supprimer */
+}
+
+button.supprimer:hover, input[type="submit"].supprimer:hover {
+    background-color: #c9302c; /* Rouge plus foncé au survol */
+}
+/* Styles pour les champs de formulaire */
+form {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les labels */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333; /* Gris foncé */
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Style pour les champs de saisie */
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; /* Bordure douce */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    background-color: #f9f9f9; /* Fond gris très clair */
+    color: #333;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+    border-color: #4a6fa5; /* Bleu doux au focus */
+    background-color: #ffffff; /* Fond blanc au focus */
+    outline: none;
+}
+
+/* Styles pour les boutons Enregistrer, Modifier et Supprimer */
+button, input[type="submit"] {
+    background-color: #4CAF50; /* Vert doux */
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #45a049; /* Vert plus foncé au survol */
+}
+
+button.modifier, input[type="submit"].modifier {
+    background-color: #f0ad4e; /* Orange doux pour Modifier */
+}
+
+button.modifier:hover, input[type="submit"].modifier:hover {
+    background-color: #ec971f; /* Orange plus foncé au survol */
+}
+
+button.supprimer, input[type="submit"].supprimer {
+    background-color: #d9534f; /* Rouge doux pour Supprimer */
+}
+
+button.supprimer:hover, input[type="submit"].supprimer:hover {
+    background-color: #c9302c; /* Rouge plus foncé au survol */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #4a6fa5;
+}
+
+.message p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"], .buttons .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover, .buttons .btn:hover {
+    background-color: #45a049;
+}
+
+.buttons .btn {
+    background-color: #4a6fa5;
+    margin: 0 10px;
+}
+
+.buttons .btn:hover {
+    background-color: #3e5c83;
+}
